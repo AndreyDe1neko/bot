@@ -1,2 +1,4 @@
+.idea
 bot/.idea
 bot/venv
+bot/Keyboards/__pycache__
