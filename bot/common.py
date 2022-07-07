@@ -124,5 +124,5 @@ def register_handlers_client(dp : Dispatcher):
     dp.register_message_handler(weather4, commands=["погода_через_2_дні"])
     dp.register_message_handler(all_cities, commands=["all_cities"])
 
-    
+
 executor.start_polling(dp, skip_updates=True, on_startup=on_startup)

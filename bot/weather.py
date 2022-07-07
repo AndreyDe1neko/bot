@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+
 def weather_short():
     url = "https://www.meteoprog.ua/ru/weather/Kyiv/"
     response = requests.get(url)
@@ -13,6 +14,7 @@ def weather_short():
         numbers[i] = numbers[i].text
         i += 1
     return numbers
+
 
 def weather_detal(day, city):
     if city == "":
